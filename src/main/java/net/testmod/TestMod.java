@@ -21,7 +21,7 @@ public class TestMod implements ModInitializer {
     // new FabricItem is the class in the same directory
     public static final Item FABRIC_ITEM = new FabricItem(new Item.Settings().group(ItemGroup.MISC));
     // borscht is a food
-    public static final Item BORSCHT = new Borscht(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(16).saturationModifier(30f).meat().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 20*60, 0), 0.8f).build()));
+    public static final Item BORSCHT = new Borscht();
     // amerikan flag bad lol
     public static final Item INGLORIOUS_FABRIC = new IngloriousItem(new Item.Settings().group(ItemGroup.MISC));
 
