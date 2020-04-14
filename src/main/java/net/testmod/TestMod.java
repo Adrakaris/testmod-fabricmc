@@ -43,6 +43,8 @@ public class TestMod implements ModInitializer {
         FuelRegistry.INSTANCE.add(INGLORIOUS_FABRIC, 340);  // adds this item as fuel
         // register pickaxe
         Registry.register(Registry.ITEM, new Identifier("testmod", "glorious_pickaxe"), new PickaxeBase(new ToolMaterialFabric()));
+        // register hammersickle
+        Registry.register(Registry.ITEM, new Identifier("testmod", "hammer_sickle"), new HammerSickle(new ToolMaterialHammerSickle()));
     }
 
 }
