@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "id": "testmod",
-  "version": "${version}",
+  "version": "1.0.1",
 
   "name": "The Testing Mod",
   "description": "Very Test. Much Wow. This is my first time programming Java help.",
   "authors": [
-    "YH"
+    "Bocbin"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",

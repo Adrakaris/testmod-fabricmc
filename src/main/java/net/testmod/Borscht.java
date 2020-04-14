@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 public class Borscht extends Item {
     public Borscht() {
         super(new Item.Settings().group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder()
-                .hunger(16).saturationModifier(30f).meat().statusEffect(new StatusEffectInstance(
+                .hunger(16).saturationModifier(0.625f).meat().statusEffect(new StatusEffectInstance(
                         StatusEffects.HEALTH_BOOST, 20*60, 0), 0.8f).build()));
     }
 
