@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g g",
+    "F F"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "F": {
+      "item": "testmod:fabric_block"
+    }
+  },
+  "result": {
+    "item": "testmod:glorious_boots",
+    "count": 1
+  }
+}

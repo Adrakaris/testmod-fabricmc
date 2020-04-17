@@ -1,4 +1,4 @@
-package net.testmod;
+package net.testmod.tools;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

@@ -1,4 +1,4 @@
-package net.testmod;
+package net.testmod.tools;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
@@ -10,6 +10,7 @@ import net.minecraft.block.Material;
 import net.minecraft.item.*;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Rarity;
+import net.testmod.TestMod;
 
 import java.util.Set;
 

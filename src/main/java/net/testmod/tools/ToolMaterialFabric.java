@@ -1,22 +1,24 @@
-package net.testmod;
+package net.testmod.tools;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.testmod.TestMod;
 
-public class ToolMaterialHammerSickle implements ToolMaterial {
+public class ToolMaterialFabric implements ToolMaterial {
+
     @Override
     public int getDurability() {
-        return 1917;
+        return 69;
     }
 
     @Override
     public float getMiningSpeed() {
-        return 19.17f;
+        return 16.9f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 10.24f;
+        return 0.5f;
     }
 
     @Override
@@ -26,7 +28,7 @@ public class ToolMaterialHammerSickle implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 19; // 17
+        return 24;
     }
 
     @Override
